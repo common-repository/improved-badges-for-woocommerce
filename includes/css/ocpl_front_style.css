@@ -1,0 +1,316 @@
+.ibfw_square_data span {
+    display: inline-block;
+    width: 100%;
+    line-height: 20px;
+    position: relative;
+    z-index: 100;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.ibfw_square_data b {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.ibfw_square_data_main {
+    position: relative;
+}
+
+/*========================shape============================*/
+
+/*---------square shap---------*/
+.ibfw_square {
+    height: 70px;
+    width: 70px;
+    border-radius: 0px;
+    line-height: 0px;
+    font-size: 0px;
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    z-index: 999;
+}
+/*---------end square shap---------*/
+
+
+/*---------rectangle shap---------*/
+.ibfw_rectangle {
+    height: 50px;
+    width: 100px;
+    border-radius: 0px;
+    line-height: 0px;
+    font-size: 0px;
+    border-width: 1px;
+    border-color: #fccfc9;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    z-index: 999;
+}
+/*---------end rectangle shap---------*/
+
+
+
+/*---------rectangle_up shap---------*/
+.ibfw_rectangle_up {
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    line-height: 0px;
+    font-size: 0px;
+    transform: rotate(45deg);
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    z-index: 999;
+}
+.ibfw_rectangle_up b {
+	transform: rotate(-45deg);
+}
+/*---------end rectangle_up shap---------*/
+
+
+/*---------offers shap-----------*/
+.ibfw_offers {
+    height: 50px;
+    width: 50px;
+    border-radius: 0px;
+    line-height: 0px;
+    font-size: 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.ibfw_offers i.template-i {
+    display: block;
+    position: absolute;
+    line-height: 0px;
+    z-index: 99;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    -moz-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+    transform: rotate(60deg);
+}
+.ibfw_offers i.template-i-before {
+    position: absolute;
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+/*---------end offers shap-----------*/
+
+
+
+/*---------tag shap-----------*/
+.ibfw_tag {
+    height: 50px;
+    width: 50px;
+    border-radius: 0px;
+    line-height: 0px;
+    font-size: 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    z-index: 999;
+}
+.ibfw_tag i.template-span-before {
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 0;
+    top: calc(100% - 20px);
+    left: 0px;
+    background-color: transparent!important;
+    border: 25px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-bottom-color: transparent!important;
+    box-sizing: border-box;
+}
+/*---------end tag shap-----------*/
+
+
+
+/*---------collar shap-----------*/
+.ibfw_collar {
+    height: 55px;
+    width: 55px;
+    border-radius: 50px;
+    line-height: 0px;
+    font-size: 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    z-index: 999;
+}
+.ibfw_collar i.template-span-before {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    top: calc(100% - 27px);
+    left: calc(50% - 17px);
+    background-color: transparent!important;
+    border: 25px solid transparent;
+    border-top-color: transparent!important;
+    border-right-color: transparent!important;
+    border-bottom-color: transparent!important;
+    border-left: 20px solid transparent;
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+.ibfw_collar i.template-i-after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    top: calc(100% - 27px);
+    right: calc(50% - 17px);
+    background-color: transparent!important;
+    border: 25px solid transparent;
+    border-top-color: transparent!important;
+    border-left-color: transparent!important;
+    border-bottom-color: transparent!important;
+    border-right: 20px solid transparent;
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+/*---------end collar shap-----------*/
+
+
+
+/*---------rectangle round shap-----------*/
+.ibfw_rectangle_round {
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    line-height: 0px;
+    font-size: 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    z-index: 999;
+}
+/*---------end rectangle round shap-----------*/
+
+
+
+/*---------rectangle circle shap-----------*/
+.ibfw_rectangle_circle {
+    height: 45px;
+    width: 100px;
+    border-radius: 50%;
+    line-height: 0px;
+    font-size: 0px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    z-index: 999;
+}
+/*---------end rectangle circle shap-----------*/
+
+
+/*--------- circle -----------*/
+.ibfw_circle {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    line-height: 0px;
+    font-size: 0px;
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    -khtml-opacity: 0.9;
+    opacity: 0.9;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    z-index: 999;
+}
+/*--------- end circle -----------*/
+
+
+
+/*--------- corner badge -----------*/
+.ibfw_corner_badge {
+    height: 40px;
+    width: 60px;
+    border-radius: 0px;
+    line-height: 0px;
+    font-size: 0px;
+    padding: 6px 0px 10px 0px;
+    background-color: transparent; 
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    z-index: 999;
+}
+.ibfw_corner_badge i.template-i-before {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 0;
+    line-height: 0px;
+    top: -67px;
+    background-color: transparent!important;
+    border: 60px solid transparent;
+    border-top-color: transparent!important;
+    border-left-color: transparent!important;
+    border-right-color: transparent!important;
+    border-bottom: 60px solid transparent;
+    left: -29px;
+}
+.ibfw_corner_badge i.template-i-after {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    transform: rotate(0deg);
+}
+/*--------- end corner badge -----------*/
